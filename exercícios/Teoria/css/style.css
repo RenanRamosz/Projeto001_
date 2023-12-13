@@ -1,0 +1,194 @@
+/* 1 - Integração inicial */
+
+h1{
+    color: blue;
+}
+
+/* 2 - Comentários no CSS */
+/* Isso é um comentário */
+
+/* 3 - Id - # */
+
+h3 {
+    color: green;
+}
+
+#title {
+    color: blue;
+}
+
+/* 4 - Classes - .  */
+
+.text {
+    color: blueviolet;
+}
+
+.background {
+    background-color: red;
+    color: blue;
+    font-size: 30px;
+
+}
+
+/* 5 - Dois elementos, uma regra */
+p, .title-small {
+    
+    color: gold;
+}
+
+.title-small {
+
+    font-size: 25px;
+}
+/* 6 - Background image */
+
+.background-image {
+    background-image: url("../img/istockphoto-1073058750-612x612.jpg") ;
+    padding: 20px; /* Espaçamento interno */
+    color: white;
+}
+
+    /* 7 - Largura (width) e altura (height) */
+
+    #width-height {
+        width: 200px;
+        height: 100px;
+        background-color: black;
+    }
+
+    /* 8 - padding (espaçamento interno) */
+    #padding {
+        background-color: magenta;
+        padding: 20px;
+    }
+
+    /* 9 - margin (espaçamento externo) */
+    #margin {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        margin: 20px;
+    }
+
+    /* 9 - border (borda) */
+
+    #border {
+        border: 3px solid red; /* border: largura, tipo, cor */
+        width: 100px;
+        height: 100px;
+        padding: 40px;
+        margin: 20px;
+    }
+
+    /* 10 - border radius (raio da borda) */
+
+    #border-radius {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        border: 3px dashed blue;
+        border-radius: 10px;
+    }
+
+    /* 10 - customização de cores */
+
+    #rgb, #hex, #hsl {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    #hex {
+        background-color: #a3b9a3;
+    }
+
+    #rgb {
+        background-color: rgb(123, 14, 164);
+    }
+
+    #hsl {
+        background-color: hsl(100, 20%, 80%)
+    }
+
+    /* 11 - alinhamento */
+
+    #center {
+        text-align: center;
+    }
+
+    p {
+        font-size: 35px;
+    }
+    
+    /* 12 - decoration */
+    #underline {
+        text-decoration: underline;
+    }
+    #line {
+        text-decoration: line-through;
+    }
+
+    /* 13 - sem underline */
+
+    #sem-underline {
+        text-decoration: none;
+    }
+
+    #fonte-pequena {
+        font-size: 10px;
+    }
+
+    /* 14 - transform */
+
+    #lower {
+        text-transform:lowercase;
+    }
+
+    #upper {
+        text-transform: uppercase;
+    }
+
+    /* 15 - alteração de fonte */
+
+    #serif {
+        font-family: serif;
+    }
+
+    #sans-serif {
+        font-family: sans-serif;
+    }
+
+    #cursive {
+        font-family: cursive;
+    }
+
+    /* 16 - display */
+
+    .inline {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .block {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        margin: 5px;
+        display: block;
+    }
+
+    /* 17 - ocultando elementos */
+
+    #none {
+        display: none;
+    }
+
+    /* 18 - position - posição */
+    
+    #relative {
+        
+    }
+    

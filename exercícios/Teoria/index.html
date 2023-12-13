@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link favicon adiciona ícone na nossa página.-->
+
+    <link rel="shortcut icon" href="img/favicon.ico.ico" type="image/x-icon">
+    <title>Teste de HTML5 e CSS3</title>
+
+    <!--Posso aplicar CSS em vários elementos de uma vez só usando a tag style.-->
+
+    <!--A regra padding-bottom:500 px, adiciona espaçamento no final do corpo da página.-->
+
+    <!--A regra color adiciona a cor purple a todos os h2. -->
+
+    <style>
+
+        body {
+            padding-bottom: 500px;
+        }
+
+        h2 {
+            color: purple;    
+        }
+    </style>
+
+    <!-- 12 - Adicionando arquivo de CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+    <!-- 1 - Títulos -->
+<body>
+    <h1>Título</h1>
+    <h2>Sub-título</h2>
+    <h3>Outro título</h3>
+
+    <!-- 2 - Parágrafos -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At hic sed, doloribus qui iste eligendi delectus sunt quidem. Dolorum, doloremque. Cumque esse quod sit quisquam soluta voluptatum, ab tempora possimus?</p>
+
+    <!-- 2 - Atríbutos -->
+    <a href="https://www.google.com">Acessar o google</a> <!-- Server para linkar um página que existe na internet.-->
+
+    <!-- 3 - Elementos sem fechamentos-->
+
+    <hr> <!--Linha horizontal (não é utilizada)-->
+    <br> <!-- Pular uma linha-->
+
+    <!-- 4 - Atríbutos alt -->
+    <img src="img/Killua.jpg" alt="Killua">
+    <hr>
+
+    <!-- 5 - Imagem externa-->
+    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="Logo HTML">
+    <hr>
+
+    <!-- 6 - CSS Inline-->
+    <p style="color: red;">Testando o CSS inline</p>
+    <p style="color: azure;">Testando o CSS inline</p>
+
+    <!-- 7 - Comentários -->
+    <!-- Katapa#6705 -->
+
+    <!-- 8 - Div -->
+
+    <!-- A div é uma tag no HTML que serve para criar componentes. Serve como uma caxinha que guarda outras tags-->
+
+    <div>
+        <h3>Produto X</h3>
+        <p>R$ 50,00</p>
+        <a href="#">Comprar</a>
+    </div>
+    <hr>
+
+    <!-- 9 - Tabelas -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID:</th>
+                <th>Nome:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Renan</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Raissa</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 10 - Listas -->
+    <ul> <!-- Ul significa Lista não ordenada-->
+        <li>Maçã</li>
+        <li>Laranja</li>
+        <li>Uva</li>
+    </ul>
+
+    <ol> <!-- Lista ordenada-->
+        <li>Estudar HTML</li>
+        <li>Estuda CSS</li>
+        <li>Estudar JavaScript</li>
+    </ol>
+
+    <!-- 11 - Elementos de bloco e inline -->
+    <p>Parágrafo</p>
+    <p>é de bloco</p>
+    <span>A tag span</span>
+    <span>na mesma linha</span>
+    <p>Clique neste <a href="#">link</a></p>
+
+    <!--  13 - Integração com CSS -->
+    <h1>Testando integração (mudança de cor)</h1>
+
+    <!--  14 - id -->
+    <h3 id="title">Meu título</h3>
+    <h3>Meu segundo título</h3>
+
+    <!--  15 - Classes -->
+    <p class="text">Meu parágrafo</p>
+    <p class="text">Mais um parágrafo</p>
+    <p class="text">E outro</p>
+    <p>E último</p>
+
+    <!--  16 - Background (Cor de fundo da tag) -->
+
+    <p class="background">Testando o background</p>
+
+    <!--  18 - Dois elementos, uma regra -->
+    <p>Meu texto</p>
+    <p class="title-small"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quisquam, similique assumenda aliquid, neque nisi libero sint earum rerum, officiis dolorum debitis mollitia quidem eveniet aperiam non expedita optio iusto!</p>
+
+    <!--  19 - Background image -->
+    <h3 class="background-image">Testando imagem de background</h3>
+
+    <h3>Regra de especifidade: O seletor de classe é mais específico que o de tag, e o seletor de id é mais específico que o de classe. Logo, o seletor de classe ganha da regra do seletor de tag e a cor é alterada na linha anterior.</h3>
+
+    <!--  20 - Conceito Box Model  -->
+
+    <p>O box model controla a aparência dos elementos e sua posição</p>
+    <ol>
+        <li>content (conteúdo)</li>
+        <li>padding (espaçamento)</li>
+        <li>border (borda)</li>
+        <li>margin (margem)</li>
+    </ol>
+
+    <!-- 21 - Largura e altura -->
+
+    <div id="width-height"></div>
+
+    <!-- 22 - padding (espaçamento interno) -->
+    <br>
+    <div id="padding">Testando padding</div>
+
+    <!-- 22 - margin (espaçamento externo) -->
+
+    <div id="margin">testando margin</div>
+
+    <!-- 23 - border (borda) -->
+    <div id="border">testando a border (borda)</div>
+    <!-- 24 - Raio da borda  -->
+    <div id="border-radius">Testando o raio da borda</div>
+
+    <!-- 25 - Customização de Cores -->
+    <div id="hex">testando cor hexadecimal</div>
+    <div id="rgb">testando cor rgb</div>
+    <div id="hsl">testando cor hsl</div>
+
+    <!-- 26 - Alinhamento de texto -->
+    <div id="center">
+        <p>Alinhando o texto</p>
+        <p>Outro texto</p>
+    </div>
+
+    <!-- 27 - Decoration -->
+    <p id="underline">Texto com underline</p>
+    <p id="line">Linha no texto</p>
+    <a href="#" id="sem-underline">link</a>
+
+    <!-- 28 - Font size -->
+
+    <p id="fonte-pequena">Meu título menor</p>
+
+    <!-- 29 - transform -->
+    <p id="lower">TODO EM CAIXA BAIXA</p>
+    <p id="upper">todo em caixa alta</p>
+
+    <!-- 30 - alteração de fonte -->
+    <p id="serif">Fonte serifada</p>
+    <p id="sans-serif">Fonte sem serifada</p>
+    <p id="cursive">Fonte cursiva</p>
+
+    <!-- 30 - Display  -->
+    <!-- se o elemento é de bloco ou não -->
+    <div class="inline"></div>
+    <div class="inline"></div>
+    <div class="inline"></div>
+
+    <span class="block">A</span>
+    <span class="block">B</span>
+    <span class="block">C</span>
+
+
+    <!-- 31 - Ocultando elementos -->
+
+    <p id="none">Estou invisível</p>
+
+    <!-- 32 - position - posição -->
+    
+    <div id="relative"></div>
+    <p>relativo ficou na frente</p> <!-- fica relativo a ele mesmo -->
+
+    <div id="absolute"></div> <!-- trabalha junto com o relative para não ficar relacionando com o body-->
+    <div id="static"></div>
+    <div id="fixed"></div> <!--Usado para menus -->
+
+    <div id="sticky"></div> <!-- position hibrído entre o position relative o position absolute. -->
+
+
+
+</body>
+</html>
